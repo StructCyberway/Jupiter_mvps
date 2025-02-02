@@ -1,0 +1,18 @@
+<div class="persons_container">
+    @for (tod of todoItems(); track tod.id) {
+      <div class="persons__item">
+        <!-- Блок с текстовой информацией -->
+        <div class="persons__info">
+          <h4>{{ tod.name }}</h4>
+          <h5>{{ tod.jobTitle }}</h5>
+          <h5>{{ tod.email }}</h5>
+          <h5>{{ tod.phone }}</h5>
+          <h6>{{ tod.employeeCode }}</h6>
+        </div>
+        <!-- Блок с фотографией -->
+        <div class="persons__image">
+          <img src="{{tod.imageUrl}}" alt="{{ tod.name }}" />
+        </div>
+      </div>
+    }
+  </div>

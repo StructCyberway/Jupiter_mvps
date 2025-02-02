@@ -1,0 +1,30 @@
+<div class="form-container">
+    <form #form="ngForm">
+      <div>
+        <label for="name">Name:</label>
+        <input id="name" name="name" ngModel type="text" placeholder="Enter name" [(ngModel)]="name" />
+      </div>
+  
+      <div>
+        <label for="jobTitle">Job Title:</label>
+        <input id="jobTitle" name="jobTitle" ngModel type="text" placeholder="Enter job title" [(ngModel)]="jobTitle" />
+      </div>
+  
+      <div>
+        <label for="phone">Phone:</label>
+        <input id="phone" name="phone" ngModel type="text" placeholder="Enter phone number"[(ngModel)]="phone" />
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input id="email" name="email" ngModel type="text" placeholder="Enter Email"[(ngModel)]="email" />
+      </div>
+  
+      <div>
+        <label for="imageUrl">Image URL:</label>
+        <input id="imageUrl" name="imageUrl" ngModel type="text" placeholder="Enter image URL"[(ngModel)]="imageUrl" />
+      </div>
+  
+      <button type="submit" (click)="onSubmit()">Submit</button>
+    </form>
+  </div>
