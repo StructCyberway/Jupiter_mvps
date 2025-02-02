@@ -1,13 +1,13 @@
 # 🌌 Jupiter MVPS Website: Where Angular Meets Spring Boot! 🚀
 
-Welcome to the **Jupiter MVPS Website** – a sleek, modern web application that combines the power of **Angular** for the frontend and **Spring Boot** for the backend. This project is more than just a website; it's a dynamic platform that showcases how technology can bring people together! 🌟
+Welcome to the **Jupiter MVPS Website** – a web application that combines **Angular** for the frontend and **Spring Boot** for the backend 🌟
 
 ---
 
 ## 🖥️ **What's Inside?**
 
 ### Frontend: Angular Magic ✨
-- **Interactive UI**: A beautifully designed frontend built with Angular, offering a seamless user experience.
+- **Interactive UI**: A designed frontend built with Angular, offering a simple user experience.
 - **Dynamic Cards**: Displaying a list of people fetched from the backend, each card is a window into someone's story.
 
 ### Backend: Spring Boot Power 💪
